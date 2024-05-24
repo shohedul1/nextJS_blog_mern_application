@@ -1,5 +1,5 @@
-import connent from "@/lib/db";
-import Post from "@/models/Post";
+import connent from "../../../lib/db";
+import Post from "../../../models/Post";
 import { NextResponse } from "next/server";
 
 

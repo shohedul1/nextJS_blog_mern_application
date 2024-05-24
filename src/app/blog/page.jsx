@@ -15,9 +15,9 @@ async function getData() {
 
 const Blog = async () => {
   const data = await getData();
-  console.log("SHOHI", data);
+  // console.log("SHOHI", data);
   return (
-    <div>
+    <div  className="mt-40">
       {data.map((item) => (
         <Link href={`/blog/${item._id}`} key={item._id} className={"flex gap-[50px] mt-[50px] mb-[100px] flex-col lg:flex-row"}>
           <div className="flex-2 lg:flex-1">

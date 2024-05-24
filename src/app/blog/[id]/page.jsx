@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
 const BlogPost = async ({ params }) => {
   const data = await getData(params.id);
   return (
-    <div>
+    <div className="mt-40">
       <div className={"flex gap-[50px] mt-[50px] mb-[100px] flex-col lg:flex-row"} >
         <div className={"flex-2 lg:flex-1 flex-col gap-5  justify-center"}>
           <h1 className={"text-5xl"}>
@@ -42,7 +42,7 @@ const BlogPost = async ({ params }) => {
               alt="image"
               width={40}
               height={40}
-              className={"object-cover rounded-full"}
+              className={"w-16 h-16 rounded-full"}
             />
             <span>
               {data.username}

@@ -1,7 +1,7 @@
 
 import { NextResponse } from "next/server";
-import connent from "@/lib/db";
-import Post from "@/models/Post";
+import connent from "../../../../lib/db";
+import Post from "../../../../models/Post";
 
 export const GET = async (request, { params }) => {
   const { id } = params;
