@@ -34,7 +34,7 @@ const Register = () => {
   };
 
   return (
-    <div className={"flex flex-col  gap-5 items-center justify-center"}>
+    <div className={"flex flex-col  gap-5 items-center justify-center mt-40"}>
       <h1 >Create an Account</h1>
       <h2 >Please sign up to see the dashboard.</h2>
       <form onSubmit={handleSubmit} className={"w-[300px] flex flex-col gap-5"}>
