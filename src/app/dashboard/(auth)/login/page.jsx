@@ -4,7 +4,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { signIn, useSession } from "next-auth/react";
 
-const Login = ({ url }) => {
+const Login = () => {
   const session = useSession();
   const router = useRouter();
   const params = useSearchParams();
