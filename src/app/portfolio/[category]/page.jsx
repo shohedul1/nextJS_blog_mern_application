@@ -27,8 +27,10 @@ const Category = ({ params }) => {
           </div>
           <div className={"flex-1 h-[500px] relative"}>
             <Image
-               width={500}
-               height={500}
+              width={500}
+              height={500}
+              priority
+              property="true"
               className="w-full h-full object-contain"
               src={item.image}
               alt="image"
